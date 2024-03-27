@@ -20,5 +20,6 @@ bark notification job update sent to phone
 
 git, git annex, lfs
 
-vpn relay, forwarding, keep work in vpn but all other ouside
+vpn relay, tailscale, forwarding, keep work in vpn but all other ouside, 
+
 

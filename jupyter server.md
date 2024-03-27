@@ -23,4 +23,5 @@ Most of the time, we don't have computationally heavy work, and we are just usin
 While the setup is relatively simple, there are some common issues to keep in mind when debugging:
 - Related to SSH client: Check the SSH config file, located in `~/.ssh` for Linux and macOS, or `$HOME\.ssh\config` for Windows. Also, ensure the public key file is in the same folder.
 - Related to SSH server: If you encounter issues like being unable to log in without entering a password, check the server config and the authorized keys file, located at `~/.ssh/authorized_keys` for Unix-like systems and `$HOME\.ssh\authorized_keys` or `__PROGRAMDATA__/ssh/administrators_authorized_keys` for Windows.
+note ssh is for client and sshd is for server. 
 - Related to Jupyter notebook: If you can't log in or start a kernel, check the notebook config file located at `~/.jupyter/jupyter_notebook_config.py`. Ensure that the setting allowing connections from all sources is enabled if necessary.
